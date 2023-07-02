@@ -1,0 +1,1 @@
+Images Used in this project are also uploaded and used in nginx
