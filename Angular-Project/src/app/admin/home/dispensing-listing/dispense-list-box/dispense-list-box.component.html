@@ -1,0 +1,8 @@
+<div class="dispensing-box" *ngIf="currents.itemCode.length!=0" >
+    <div id = "title" >
+        <p id = "code">PRN Number - {{currents.prn | uppercase}},
+            Patient Name - {{currents.patientname | uppercase}} </p>
+        <p id = "uom">Drug Code - {{currents.itemCode}},Quantity - {{currents.quantity}} {{currents.uom}} </p>
+        </div>
+  </div>
+

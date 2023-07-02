@@ -1,0 +1,18 @@
+.drug-box
+
+{
+   margin:20px;
+    padding: 20px;
+    width: 700px;
+    height:100px;
+    box-shadow: 2px 2px 5px rgb(81, 80, 80);
+    background-color: rgb(198, 189, 224);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#code,#uom
+{
+    color: rgb(31, 75, 236);
+    font-weight: bolder;
+}
+
+

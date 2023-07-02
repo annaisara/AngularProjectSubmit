@@ -1,0 +1,7 @@
+<div class="drug-box" *ngIf="currents.itemCode.length!=0" >
+    <div id = "title" >
+        <p id = "code">Drug Code - {{currents.itemCode | uppercase}},
+           Drug Description - {{currents.itemDescription | uppercase}} </p>
+        <p id = "uom">Quantity - {{currents.quantity}} {{currents.uom}} </p>
+        </div>
+  </div>

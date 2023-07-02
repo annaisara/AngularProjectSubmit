@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "email": "saratest1@gmail.com",
+      "password": "$2a$10$5FR6IPs9Y/MHjYRpyTNHSuvvF3UMSoNFZKL3AYXlxdDwdwrJ24Bi.",
+      "username": "saratest1",
+      "type": "admin",
+      "id": 2
+    },
+    {
+      "email": "saratest2@gmail.com",
+      "password": "$2a$10$WKH2Abi1Ih/dXMmKrKk1X..j/3yJ/9oha8ESbk2LF/0CxQn7HLX1K",
+      "username": "saratest2",
+      "type": "user",
+      "id": 3
+    },
+    {
+      "email": "rajesh1@gmail.com",
+      "password": "$2a$10$PGwwQG6jr1xeOewvi7EZmuFNZpt8DtKiYf/5pfI7mDc/Gba5fEfVK",
+      "username": "rajesh1",
+      "type": "admin",
+      "id": 4
+    }
+  ],
+  "drugdetail": [
+    {
+      "id": 1,
+      "itemCode": "",
+      "itemDescription": "",
+      "uom": "",
+      "quantity": ""
+    },
+    {
+      "id": 2,
+      "itemCode": "2343",
+      "itemDescription": "PARACETAMOL TABLET 500",
+      "uom": "TABLET",
+      "quantity": "5000"
+    },
+    {
+      "itemCode": "520-00212",
+      "itemDescription": "LEGUCILIN 250MG TABLET",
+      "uom": "TABLET",
+      "quantity": "5000",
+      "id": 3
+    },
+    {
+      "itemCode": "ASPIT30",
+      "itemDescription": "ASPIRIN30 DESC",
+      "uom": "BOX",
+      "quantity": "1000",
+      "id": 4
+    },
+    {
+      "itemCode": "SUNDRY",
+      "itemDescription": "SUNDRY ITEM",
+      "uom": "BOX",
+      "quantity": "275",
+      "id": 5
+    },
+    {
+      "itemCode": "sdas",
+      "itemDescription": "ddas",
+      "uom": "BOTTLE",
+      "quantity": "1",
+      "id": 6
+    },
+    {
+      "itemCode": "dsds",
+      "itemDescription": "ddsd",
+      "uom": "CAP",
+      "quantity": "12",
+      "id": 7
+    },
+    {
+      "itemCode": "ambifilin",
+      "itemDescription": "ambifilin",
+      "uom": "BOX",
+      "quantity": "10",
+      "id": 8
+    },
+    {
+      "itemCode": "Aspit50",
+      "itemDescription": "Aspirin50",
+      "uom": "BOX",
+      "quantity": "100",
+      "id": 9
+    },
+    {
+      "itemCode": "123",
+      "itemDescription": "123",
+      "uom": "BOTTLE",
+      "quantity": "34",
+      "id": 10
+    },
+    {
+      "itemCode": "wwwqwwq",
+      "itemDescription": "qweeewq",
+      "uom": "BOTTLE",
+      "quantity": "0",
+      "id": 11
+    },
+    {
+      "itemCode": "wwe",
+      "itemDescription": "dsdsdsd",
+      "uom": "BOTTLE",
+      "quantity": "12",
+      "id": 12
+    },
+    {
+      "itemCode": "sasaass",
+      "itemDescription": "ssas",
+      "uom": "BOTTLE",
+      "quantity": "10",
+      "id": 13
+    },
+    {
+      "itemCode": "123",
+      "itemDescription": "Rajeshdrug",
+      "uom": "CAP",
+      "quantity": "12",
+      "id": 14
+    }
+  ],
+  "dispdetail": [
+    {
+      "id": 1,
+      "prn": "P123",
+      "patientname": "Jacop",
+      "itemCode": "SUNDRY",
+      "uom": "BOX",
+      "quantity": "275"
+    },
+    {
+      "prn": "P456",
+      "patientname": "SARAVANAN",
+      "itemCode": "2343",
+      "uom": "CAP",
+      "quantity": "10",
+      "id": 2
+    },
+    {
+      "prn": "",
+      "patientname": "",
+      "itemCode": "",
+      "uom": "",
+      "quantity": 0,
+      "id": 3
+    },
+    {
+      "prn": "feer",
+      "patientname": "rerer",
+      "itemCode": "wwe",
+      "uom": "TABLET",
+      "quantity": 0,
+      "id": 4
+    },
+    {
+      "prn": "err",
+      "patientname": "dwdww",
+      "itemCode": "2343",
+      "uom": "TABLET",
+      "quantity": "15",
+      "id": 5
+    },
+    {
+      "prn": "raj123",
+      "patientname": "kumar",
+      "itemCode": "123",
+      "uom": "BOX",
+      "quantity": "12",
+      "id": 6
+    },
+    {
+      "prn": "s123",
+      "patientname": "ramuraja",
+      "itemCode": "123",
+      "uom": "BOX",
+      "quantity": "150",
+      "id": 7
+    }
+  ]
+}

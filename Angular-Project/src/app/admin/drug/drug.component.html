@@ -1,0 +1,66 @@
+<!--<p>drug works!</p>
+<div>
+<ul>
+    <li *ngFor ="let drugs of drug ">{{drugs.itemCode}}| {{drugs.itemDescription}}</li>
+</ul>
+
+</div> -->
+
+<div class="rform">
+    <div id="image-left"><img src="http://localhost:8081/capsule.jpg" alt=""></div>
+    <h3>Drug Save Form</h3>
+    <table>
+        <tr>
+            <td class="item-label"> Drug Code </td>
+            <td><input type="text" class="medium-input" [(ngModel)]="itemCode"></td>
+        </tr>
+        <tr>
+            <td class="item-label"> Drug Name </td>
+            <td><input type="text" class="medium-input" [(ngModel)]="itemDescription"></td>
+        </tr>
+
+        <tr>
+            <td class="item-label"> UOM</td>
+            <td>
+                <select class="medium-input" [(ngModel)]="uom">
+                    <option *ngFor="let druguom of uoms">{{druguom}}</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="item-label"> Quantity </td>
+            <td><input type="text" class="medium-input" [(ngModel)]="quantity"></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: center" colspan="2">
+                <button mat-raised-button background-color="blue" type="button" (click)="postDrug()">Post Drug</button>
+            </td>
+        </tr>
+
+    </table>
+
+    <div *ngIf="errors.length!=0">
+
+        <ul>
+            <li *ngFor="let x of errors">{{x}}</li>
+
+        </ul>
+
+    </div>
+
+</div>
+<!---
+<div>
+    <button mat-raised-button background-color="blue" type="button" (click)="getDrugs()">Get Drug</button>
+    <ul>
+        <li *ngFor="let drug of drugdetails">
+            {{drug.itemCode}}|{{drug.itemDescription}}|{{drug.uom}}|{{drug.quantity}}</li>
+
+    </ul>
+
+</div>
+-->
+<app-drug-box *ngFor = "let x of drugdetails" 
+[drugdetail] = "x"></app-drug-box>

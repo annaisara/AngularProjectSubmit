@@ -1,0 +1,19 @@
+.rform{
+
+    border: 2px solid rgb(74, 72, 72);
+   /* padding: 1px;*/
+    /*top:2px; */
+    margin: 30px;
+    width: 280px;
+    align-content: center;
+    margin-left: 30%;
+    margin-top: 1px;
+}
+
+#image-left{
+    position: relative;
+    left: 0px;
+    top:0px;
+   /* height: 2%;*/
+    width:10%;
+}

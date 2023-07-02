@@ -1,0 +1,78 @@
+<div class="rform">
+    <div id="image-left"><img src="http://localhost:8081/dispensing.jpg" alt=""></div>
+    <h3>Patient Dispensing Form</h3>
+    <table>
+        <tr>
+            <td class="item-label"> PRN Code </td>
+            <td><input type="text" class="medium-input" [(ngModel)]="prn"></td>
+        </tr>
+        <tr>
+            <td class="item-label"> Patient Name </td>
+            <td><input type="text" class="medium-input" [(ngModel)]="patientname"></td>
+        </tr>
+        <!--<tr>
+            <td class="item-label"> Itemcode </td>
+            <td><input type="text" class="medium-input" [(ngModel)]="itemCode"></td>
+        </tr>-->
+        <tr>
+            <td class="item-label"> Drug code</td>
+            <td>
+               <select class="medium-input" [(ngModel)]="itemCode">
+                    <option *ngFor="let drug of drugdetails" (change)="getDrugs()">{{drug.itemCode}}</option>
+                </select>
+                
+            </td>
+        </tr>
+
+       <!-- <tr>
+            <td class="item-label"> UOM </td>
+            <td><input type="text" class="medium-input" [(ngModel)]="uom"></td>
+        </tr>-->
+        <tr>
+            <td class="item-label"> UOM</td>
+            <td>
+                <select class="medium-input" [(ngModel)]="uom">
+                    <option *ngFor="let _uom of uoms"  (change)="getDrugsUom()">{{_uom}}</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="item-label"> Quantity </td>
+            <td><input type="text" class="medium-input" [(ngModel)]="quantity"></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: center" colspan="2">
+                <button mat-raised-button background-color="blue" 
+                type="button" (click)="postDispensing()">Post Dispensing</button>
+            </td>
+        </tr>
+
+    </table>
+
+    <div *ngIf="errors.length!=0">
+
+        <ul>
+            <li *ngFor="let x of errors">{{x}}</li>
+
+        </ul>
+
+    </div>
+</div>
+
+<!--<div>
+    <button mat-raised-button background-color="blue" type="button" (click)="getDispensing()">Get Dispensing</button>
+    <ul>
+        <li *ngFor="let dispensings of dispensingdetails">
+            {{dispensings.prn}}| {{dispensings.patientname}}|{{dispensings.itemCode}}|{{dispensings.uom}}|{{dispensings.quantity}}</li>
+
+    </ul>
+
+</div>-->
+
+<app-dispensing-box *ngFor = "let x of dispensingdetails" 
+[dispensingdetail] = "x">
+
+
+</app-dispensing-box>
