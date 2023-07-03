@@ -9,7 +9,7 @@ import { LoginService } from 'src/app/services/login.service';
 })
 export class HomeComponent {
   constructor (public router : Router,public route:ActivatedRoute,private log:LoginService) {};
-
+/*
   drugClick()
   {
 
@@ -27,5 +27,5 @@ export class HomeComponent {
     this.log.logout();
     window.location.reload();
 }
-
+*/
 }

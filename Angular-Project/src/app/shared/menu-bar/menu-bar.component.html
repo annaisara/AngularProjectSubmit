@@ -1,4 +1,4 @@
-<mat-toolbar id ="main-menu">
+<!--<mat-toolbar id ="main-menu">
     <span class = "app-title"> Pharmacy Module</span>
 <ul>
 
@@ -6,5 +6,33 @@
 
 </ul>
 
-</mat-toolbar>
+</mat-toolbar>-->
+
+<ul class="navbar-nav">
+   <!--- <li class="nav-item">
+      <a class="nav-link" (click)="navigate('')">Home</a>
+    </li>-->
+     <li class="nav-item" *ngIf="busertype">
+        <a class="nav-link"  (click)="navigate('drug')">Admin -Drug Saving</a>
+      </li>
+      <li class="nav-item" *ngIf="busertype">
+        <a class="nav-link"  (click)="navigate('dispensing-listing')">Dispensing Data</a>
+      </li>
+      <li class="nav-item" *ngIf="busertype">
+        <a class="nav-link"  (click)="logout()">Admin logout</a>
+      </li>
+
+   <!-- <li class="nav-item" *ngIf!="busertype">
+      <a class="nav-link" (click)="navigate('user/home')">User Panel</a>
+    </li>-->
+
+    <li class="nav-item" *ngIf="!busertype">
+        <a class="nav-link" (click)="navigate('dispensing')">User Dispensing</a>
+      </li>
+      <li class="nav-item" *ngIf="!busertype">
+        <a class="nav-link" (click)="logout()">User logout</a>
+      </li>  
+  </ul>
+
+
 

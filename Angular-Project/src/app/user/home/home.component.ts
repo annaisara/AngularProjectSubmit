@@ -10,12 +10,12 @@ import { LoginService } from 'src/app/services/login.service';
 export class HomeComponent {
   constructor (public router : Router,public route:ActivatedRoute,private log:LoginService) {};
   
-  dispenisngClick()
+ /* dispenisngClick()
   {
     this.router.navigate(['dispensing'],{relativeTo:this.route});
   }
   logout(){
     this.log.logout();
     window.location.reload();
-}
+}*/
 }

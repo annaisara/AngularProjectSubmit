@@ -1,2 +1,2 @@
-<app-dispense-list-box *ngFor = "let x of dispensingdetails" 
+<app-dispense-list-box *ngFor = "let x of dispensingdetails; let y=index " [gapindex]="y"
 [dispensingdetail] = "x"></app-dispense-list-box>

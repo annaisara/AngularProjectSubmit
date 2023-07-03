@@ -14,5 +14,5 @@ export class DispenseListBoxComponent {
     uom:"",
     quantity:0
   }
-
+ @Input("gapindex") currentgapindex:number=-1
 }

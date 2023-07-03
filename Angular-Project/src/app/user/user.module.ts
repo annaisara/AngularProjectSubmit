@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { DispensingComponent } from './dispensing/dispensing.component';
 import { FormsModule } from '@angular/forms';
 import { DispensingBoxComponent } from './dispensing/dispensing-box/dispensing-box.component';
+import { SharedModule } from '../shared/shared.module';
 
   const route:Routes=[
 
@@ -34,6 +35,7 @@ import { DispensingBoxComponent } from './dispensing/dispensing-box/dispensing-b
   imports: [
     CommonModule,
     FormsModule,
+    SharedModule,
     RouterModule.forChild(route)]
   
 })

@@ -8,25 +8,7 @@ import { LoginService } from '../services/login.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
- /*
-  userMode = "admin"
-  
- constructor(private router:Router){
- 
- }
-
- loginClick(){
- if(this.userMode=="admin")
- {
-  this.router.navigate(['admin/home'])
-  
- }
- else
-    this.router.navigate(['user/stock']);
-
- }
-*/
-
+busertype:boolean =false;
 email:string="";
   password:string="";
   error?:string;

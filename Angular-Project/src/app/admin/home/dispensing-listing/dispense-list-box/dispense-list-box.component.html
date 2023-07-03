@@ -1,5 +1,7 @@
+<div id = "header" *ngIf ="currentgapindex==0"></div>
 <div class="dispensing-box" *ngIf="currents.itemCode.length!=0" >
     <div id = "title" >
+        <br>
         <p id = "code">PRN Number - {{currents.prn | uppercase}},
             Patient Name - {{currents.patientname | uppercase}} </p>
         <p id = "uom">Drug Code - {{currents.itemCode}},Quantity - {{currents.quantity}} {{currents.uom}} </p>

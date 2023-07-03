@@ -13,13 +13,6 @@
       "username": "saratest2",
       "type": "user",
       "id": 3
-    },
-    {
-      "email": "rajesh1@gmail.com",
-      "password": "$2a$10$PGwwQG6jr1xeOewvi7EZmuFNZpt8DtKiYf/5pfI7mDc/Gba5fEfVK",
-      "username": "rajesh1",
-      "type": "admin",
-      "id": 4
     }
   ],
   "drugdetail": [
@@ -54,72 +47,16 @@
     {
       "itemCode": "SUNDRY",
       "itemDescription": "SUNDRY ITEM",
-      "uom": "BOX",
+      "uom": "DROP",
       "quantity": "275",
       "id": 5
     },
     {
-      "itemCode": "sdas",
-      "itemDescription": "ddas",
-      "uom": "BOTTLE",
-      "quantity": "1",
+      "itemCode": "Aspit30",
+      "itemDescription": "Aspirin 30",
+      "uom": "TABLET",
+      "quantity": "5000",
       "id": 6
-    },
-    {
-      "itemCode": "dsds",
-      "itemDescription": "ddsd",
-      "uom": "CAP",
-      "quantity": "12",
-      "id": 7
-    },
-    {
-      "itemCode": "ambifilin",
-      "itemDescription": "ambifilin",
-      "uom": "BOX",
-      "quantity": "10",
-      "id": 8
-    },
-    {
-      "itemCode": "Aspit50",
-      "itemDescription": "Aspirin50",
-      "uom": "BOX",
-      "quantity": "100",
-      "id": 9
-    },
-    {
-      "itemCode": "123",
-      "itemDescription": "123",
-      "uom": "BOTTLE",
-      "quantity": "34",
-      "id": 10
-    },
-    {
-      "itemCode": "wwwqwwq",
-      "itemDescription": "qweeewq",
-      "uom": "BOTTLE",
-      "quantity": "0",
-      "id": 11
-    },
-    {
-      "itemCode": "wwe",
-      "itemDescription": "dsdsdsd",
-      "uom": "BOTTLE",
-      "quantity": "12",
-      "id": 12
-    },
-    {
-      "itemCode": "sasaass",
-      "itemDescription": "ssas",
-      "uom": "BOTTLE",
-      "quantity": "10",
-      "id": 13
-    },
-    {
-      "itemCode": "123",
-      "itemDescription": "Rajeshdrug",
-      "uom": "CAP",
-      "quantity": "12",
-      "id": 14
     }
   ],
   "dispdetail": [
@@ -128,7 +65,7 @@
       "prn": "P123",
       "patientname": "Jacop",
       "itemCode": "SUNDRY",
-      "uom": "BOX",
+      "uom": "DROP",
       "quantity": "275"
     },
     {
@@ -140,44 +77,12 @@
       "id": 2
     },
     {
-      "prn": "",
-      "patientname": "",
-      "itemCode": "",
-      "uom": "",
-      "quantity": 0,
+      "prn": "P789",
+      "patientname": "KUMAR",
+      "itemCode": "520-00212",
+      "uom": "TABLET",
+      "quantity": "20",
       "id": 3
-    },
-    {
-      "prn": "feer",
-      "patientname": "rerer",
-      "itemCode": "wwe",
-      "uom": "TABLET",
-      "quantity": 0,
-      "id": 4
-    },
-    {
-      "prn": "err",
-      "patientname": "dwdww",
-      "itemCode": "2343",
-      "uom": "TABLET",
-      "quantity": "15",
-      "id": 5
-    },
-    {
-      "prn": "raj123",
-      "patientname": "kumar",
-      "itemCode": "123",
-      "uom": "BOX",
-      "quantity": "12",
-      "id": 6
-    },
-    {
-      "prn": "s123",
-      "patientname": "ramuraja",
-      "itemCode": "123",
-      "uom": "BOX",
-      "quantity": "150",
-      "id": 7
     }
   ]
 }
